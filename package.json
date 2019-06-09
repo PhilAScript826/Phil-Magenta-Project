@@ -7,12 +7,13 @@
     "express": "^4.17.1",
     "fs-extra": "^8.0.1",
     "midi-file": "^1.1.1",
+    "nodemon": "^1.19.1",
     "tone": "^13.4.9"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js", 
+    "start": "nodemon server.js",
     "build": "node index.js"
   },
   "repository": {
