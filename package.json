@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "midi-file": "^1.1.1",
+    "express": "^4.17.1",
     "fs-extra": "^8.0.1",
+    "midi-file": "^1.1.1",
     "tone": "^13.4.9"
   },
   "devDependencies": {},
